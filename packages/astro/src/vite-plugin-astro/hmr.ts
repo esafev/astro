@@ -41,7 +41,7 @@ export async function trackCSSDependencies(
 			}
 
 			// Update the module graph, telling it about our CSS deps.
-			moduleGraph.updateModuleInfo(mod, depModules, new Set(), true);
+			moduleGraph.updateModuleInfo(mod, depModules, new Set(), true)
 			for (const dep of cssDeps) {
 				this.addWatchFile(dep);
 			}
@@ -60,7 +60,7 @@ export async function handleHotUpdate(ctx: HmrContext, config: AstroConfig, logg
 	for (const mod of ctx.modules) {
 		// This is always the HMR script, we skip it to avoid spamming
 		// the browser console with HMR updates about this file
-		if (mod.id?.endsWith('.astro?html-proxy&index=0.js')) {
+		if (mod.id?.endsWith('/astro/dist/runtime/client/hmr.js')) {
 			filtered.delete(mod);
 			continue;
 		}
