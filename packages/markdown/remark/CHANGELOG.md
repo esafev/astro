@@ -1,5 +1,16 @@
 # @astrojs/markdown-remark
 
+## 0.12.0
+
+### Minor Changes
+
+- [#3044](https://github.com/withastro/astro/pull/3044) [`8530cce14`](https://github.com/withastro/astro/commit/8530cce14f9953e0e5d6b12807720e62b9b5cf1f) Thanks [@RafidMuhymin](https://github.com/RafidMuhymin)! - fixed generated slugs in markdown that ends with a dash
+
+### Patch Changes
+
+- Updated dependencies [[`31f9c0bf0`](https://github.com/withastro/astro/commit/31f9c0bf029ffa4b470e620f2c32e1370643e81e)]:
+  - @astrojs/prism@0.6.1
+
 ## 0.11.7
 
 ### Patch Changes

@@ -1,5 +1,18 @@
 # astro
 
+## 1.0.0-beta.73
+
+### Patch Changes
+
+- [#3937](https://github.com/withastro/astro/pull/3937) [`31f9c0bf0`](https://github.com/withastro/astro/commit/31f9c0bf029ffa4b470e620f2c32e1370643e81e) Thanks [@delucis](https://github.com/delucis)! - Roll back supported Node engines
+
+* [#3915](https://github.com/withastro/astro/pull/3915) [`f5d4ebf0e`](https://github.com/withastro/astro/commit/f5d4ebf0e242a7d33fedfe924f9dea678a7e673c) Thanks [@natemoo-re](https://github.com/natemoo-re)! - Fix metadata handling for building MDX files
+
+* Updated dependencies [[`31f9c0bf0`](https://github.com/withastro/astro/commit/31f9c0bf029ffa4b470e620f2c32e1370643e81e), [`8530cce14`](https://github.com/withastro/astro/commit/8530cce14f9953e0e5d6b12807720e62b9b5cf1f)]:
+  - @astrojs/prism@0.6.1
+  - @astrojs/telemetry@0.4.1
+  - @astrojs/markdown-remark@0.12.0
+
 ## 1.0.0-beta.72
 
 ### Patch Changes
